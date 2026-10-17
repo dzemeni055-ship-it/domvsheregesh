@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Коттедж в Шерегеше | Аренда дома у горы Зелёная</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="sher.css">
+</head>
+<body>
+
+<canvas id="snowCanvas" class="snow-flurry"></canvas>
+
+<!-- ГЛАВНЫЙ ЭКРАН -->
+<section class="parallax hero">
+    <div class="overlay-dark"></div>
+    <div class="hero-content">
+        <h1>🏔️ Коттедж в Шерегеше</h1>
+        <p>Кемеровская область, п.Шерегеш, ул.Кедровая 21/а
+Дом расположен вблизи горы Зелёная</p>
+        <div class="btn-group">
+            <a href="tel:+79069838454" class="btn btn-phone">
+                <i class="fas fa-phone-alt"></i> Позвонить +7 906 983-84-54
+            </a>
+            <a href="https://max.ru/u/f9LHodD0cOLvJxfqiGRA3X2tgoOgcc5QzbjTkeRmu945-AwlddSXX9AKGIw" class="btn btn-max" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-telegram-plane"></i> Написать в MAX
+            </a>
+            <a href="#" class="btn btn-dates" id="showPriceBtn">
+                <i class="fas fa-calendar-alt"></i> Выбрать даты / Узнать цену
+            </a>
+        </div>
+        <div style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+            <i class="fas fa-map-marker-alt"></i> ул. Кедровая 21/а, Шерегеш
+        </div>
+    </div>
+</section>
+
+<!-- ОПИСАНИЕ ДОМА + ОСНАЩЕНИЕ -->
+<section class="info-section">
+    <div class="container" style="max-width: 1200px; margin: 0 auto;">
+        
+        <h2>❄️ Ваш идеальный дом у подножия Зелёной горы ❄️</h2>
+        <p>В доме есть всё для комфортного проживания: электрочайник, стиральная и посудомоечная машины, холодильник, СВ-печь, варочная панель, духовой шкаф, полный комплект кухонной посуды. Кабельное TV и Wi-Fi.</p>
+        
+        <div class="featured-house">
+            <img src="sherhouse.jpg" alt="Современный коттедж в Шерегеше - экстерьер" loading="lazy">
+        </div>
+        
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-vector-square"></i>
+                <h3>Большая гостиная</h3>
+                <p>Площадь 40 м², совмещённая с кухней. Большой раскладной диван.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bed"></i>
+                <h3>5 спален</h3>
+                <p>1 спальня на 1 этаже, 4 спальни на втором. В каждой двуспальная кровать с ортопедическим матрацем и подушками Аскона.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-bath"></i>
+                <h3>2 санузла</h3>
+                <p>На каждом этаже санузел с душевой. На втором этаже уютная гостиная с диванчиками.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-temperature-low"></i>
+                <h3>Тёплые полы</h3>
+                <p>На первом этаже тёплые полы для максимального комфорта.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- БАНЯ + ПРАВИЛА -->
+<section class="parallax parallax-interior" style="min-height: auto;">
+    <div class="overlay-dark" style="background: linear-gradient(120deg, rgba(0,0,0,0.7), rgba(20,40,35,0.7));"></div>
+    <div class="parallax-card">
+        <h3><i class="fas fa-hot-tub"></i> Баня и банный чан на дровах</h3>
+        <p style="font-size: 1.2rem; margin: 1rem 0;">На территории есть баня и банный чан на дровах — заказывается отдельно.
+Приезжайте и насладитесь нашей уютной и комфортной обстановкой.</p>
+        <div style="margin-top: 1rem;">
+            <i class="fas fa-clock"></i> Бронирование от 2-х суток
+        </div>
+    </div>
+</section>
+
+<!-- ПРАВИЛА ПРОЖИВАНИЯ + ИНТЕРЬЕР -->
+<section class="info-section" style="background: #0b1b21;">
+    <h2>📋 Правила и условия</h2>
+    <div class="rules-list">
+        <li><i class="fas fa-smoking-ban"></i> Запрещено любое курение в доме</li>
+        <li><i class="fas fa-paw"></i> Проживание с животными не допускается</li>
+        <li><i class="fas fa-passport"></i> При заселении заключается договор аренды, необходим паспорт</li>
+        <li><i class="fas fa-money-bill-wave"></i> Залог 10 000 ₽ — возвращается после уборки дома</li>
+        <li><i class="fas fa-clock"></i> Заселение: 15:00 / Выселение: 12:00</li>
+        <li><i class="fas fa-leaf"></i> Экослед: -5 кг CO₂</li>
+    </div>
+    
+    <div class="tilted-photo">
+        <img src="sherbath.jpg" alt="Баня и банный чан на дровах в коттедже Шерегеш" loading="lazy">
+    </div>
+    <div class="caption">
+        <i class="fas fa-camera"></i> Уют и комфорт в каждой детали — баня и чан на дровах
+    </div>
+</section>
+
+<!-- ТРЕТИЙ ПАРАЛЛАКС + КНОПКИ -->
+<section class="parallax parallax-mountain" style="min-height: 65vh; display: flex; align-items: center;">
+    <div class="overlay-dark" style="background: rgba(0,0,0,0.5);"></div>
+    <div style="position: relative; z-index: 2; text-align: center; width: 100%; padding: 2rem;">
+        <div style="background: rgba(0,0,0,0.45); backdrop-filter: blur(6px); border-radius: 48px; display: inline-block; padding: 2rem 2.5rem; max-width: 90%; margin: 0 auto;">
+            <h2 style="font-family: 'Playfair Display'; font-size: 2rem;">❄️ Забронируйте зимнюю сказку прямо сейчас ❄️</h2>
+            <p style="margin: 1rem 0; font-size: 1.1rem;">Бронирование от 2-х суток. Уточняйте свободные даты!</p>
+            <div class="btn-group" style="margin-top: 1rem;">
+                <a href="tel:+79069838454" class="btn btn-phone" style="background: #0f766e;">
+                    <i class="fas fa-phone-volume"></i> +7 906 983-84-54
+                </a>
+                <a href="https://max.ru/u/f9LHodD0cOLvJxfqiGRA3X2tgoOgcc5QzbjTkeRmu945-AwlddSXX9AKGIw" class="btn btn-max" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> MAX мессенджер
+                </a>
+                <a href="#" class="btn btn-dates" id="showPriceBtn2">
+                    <i class="fas fa-calendar-check"></i> Выбрать даты
+                </a>
+            </div>
+            <div style="margin-top: 1.2rem; font-size: 0.85rem;">
+                <i class="fas fa-shield-alt"></i> Залог 10 000 ₽ возвратный • Договор аренды
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ФУТЕР -->
+<section class="footer-note">
+    <div class="footer-inner">
+        <i class="fas fa-snowflake" style="opacity: 0.6;"></i>
+        <p>© Коттедж в Шерегеше | ул. Кедровая 21/а</p>
+        <div style="margin-top: 1rem;">
+            <a href="tel:+79069838454" style="color:#bbf0e3; text-decoration: none; margin: 0 12px;"><i class="fas fa-phone"></i> +79069838454</a>
+            <span>|</span>
+            <a href="https://max.ru/u/f9LHodD0cOLvJxfqiGRA3X2tgoOgcc5QzbjTkeRmu945-AwlddSXX9AKGIw" target="_blank" style="color:#facc15; text-decoration: none; margin: 0 12px;"><i class="fab fa-telegram"></i> MAX</a>
+        </div>
+    </div>
+</section>
+
+<script src="sher.js"></script>
+
+</body>
+</html>
